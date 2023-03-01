@@ -41,24 +41,24 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername = "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
-global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://s.id/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.botname = "Lisabotz-MD😘😍🥰" //namabot kalian
+global.ownername = "AnggaKz🗿😎" //nama kalian
+global.myweb = "https://instagram.com/anggatzi123" //bebas asal jan hapus
+global.youtube = "https://instagram.com/anggatzi123" //bebas asal jan hapus
+global.myweb2 = "https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p" //bebas
+global.email = "sefranggarangga@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone list : https://www.php.net/manual/en/timezones.php 
-global.premium = ['62887435047326'] //premium user
-global.owner = ["62887435047326", "62821931157232"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "62887435047326" // nomor wa kalian
-global.ownernomerr = "+62887435047326" //nmr wa kalian
-global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
-global.donasi = "./image/donasi.jpg" // foto donasi di folder image
+global.premium = ['6285923463470'] //premium user
+global.owner = ["6285923463470", "6281998425782"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "6285923463470" // nomor wa kalian
+global.ownernomerr = "+6285923463470" //nmr wa kalian
+global.thumbnail = "./image/7732bfe51150b0ad497e6e7460c36c56.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
+global.donasi = "./image/Screenshot_20221017-123330_1.jpg" // foto donasi di folder image
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© Alphabot-Mdོ' //sticker wm ubah
-global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm ganti nama kalian
+global.thumbGif = 'https://telegra.ph/file/c188159036c3ca9428c29.jpg'
+global.packname = '© Lisabotz-MD😘😍🥰' //sticker wm ubah
+global.author = 'Di Buat Oleh AnggaKz😎🗿🐸' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 //type menu for menu
 global.typemenu = 'document' //
@@ -67,7 +67,7 @@ global.typemenu2 = 'templateImage' //
 global.multiplier = 69
 global.limitawal = {
    premium: "10000",
-   free: 100
+   free: 10
 }
 global.buttonDefault = [{
    urlButton: {
@@ -214,7 +214,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['', '!', '.', '🐦', '🐤', '🗿']
 global.sp = '⭔'
 global.mess = {
-   sukses: '🤗Done, Oke Desu~',
+   sukses: '🤗Done banh',
    admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
    botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
    owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
