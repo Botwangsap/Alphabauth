@@ -61,7 +61,7 @@ global.packname = '© Lisabotz-MD😘😍🥰' //sticker wm ubah
 global.author = 'Di Buat Oleh AnggaKz😎🗿🐸' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 //type menu for menu
-global.typemenu = 'document' //
+global.typemenu = 'templateLocation' //
 //type menu for downloadmenu, animemenu, etc
 global.typemenu2 = 'templateImage' //
 global.multiplier = 69
