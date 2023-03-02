@@ -2831,7 +2831,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
          case 'kick': {
             if (!m.isGroup) return reply(lang.groupOnly())
             if (!isBotAdmins) return reply(lang.botNotAdmin())
-            if (!(isGroupAdmins || isGroupOwner)) return reply(lang.adminOnly())
+            if (!(isPremium || isGroupOwner)) return reply(lang.adminOnly())
             if (!m.quoted && !text) return reply(lang.MauKick())
             let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
             await alpha.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => reply(lang.ok())).catch((err) => reply(lang.err()))
@@ -2840,7 +2840,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
          case 'add': {
             if (!m.isGroup) return reply(lang.groupOnly())
             if (!isBotAdmins) return reply(lang.botNotAdmin())
-            if (!(isGroupAdmins || isGroupOwner)) return reply(lang.adminOnly())
+            if (!(isPremium || isGroupOwner)) return reply(lang.adminOnly())
             if (!m.quoted && !text) return reply(lang.MauAdd())
             let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
             await alpha.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => reply(lang.ok())).catch((err) => reply(lang.err()))
